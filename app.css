@@ -1,0 +1,53 @@
+html {
+    font-family: Montserrat, Fraunces, sans-serif;
+    font-size: 62.5%;
+}
+
+body {
+    background-color: hsl(30, 38%, 92%);
+}
+
+main {
+    background-color: white;
+}
+
+section {
+    font-size: 1.4rem;
+}
+
+.perfume {
+    color: hsl(228, 12%, 48%);
+}
+
+.title {
+    color: hsl(212, 21%, 14%);
+    font-family: Fraunces, sans-serif;
+}
+
+.desc {
+    color: hsl(228, 12%, 48%);
+}
+
+.price {
+    font-family: Fraunces, sans-serif;
+    color: hsl(158, 36%, 37%);
+}
+
+.price sup {
+    color: hsl(228, 12%, 48%);
+    font-weight: 500;
+    font-family: Montserrat, sans-serif;
+    text-decoration-line: line-through;
+}
+
+button {
+    font-weight: 700;
+    color: white;
+    background-color: hsl(158, 36%, 37%);
+    transition: background-color 250ms;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: hsl(212, 21%, 14%);
+}
